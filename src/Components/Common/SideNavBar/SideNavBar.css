@@ -1,0 +1,107 @@
+.sideNavMain{
+  position: absolute;
+  width: 250px !important;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  padding: 90px 0px 0px 0px;
+  background-color: rgb(52, 65, 83);
+  text-align: left;
+  height: 100%;
+}
+
+.sideNavIcon{
+  color: rgb(9, 211, 171);
+  font-size: 24px;
+  margin: 0px !important;
+  position: absolute;
+}
+
+.sideNavContMain{
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 10px 15px 25px;
+  position: relative;
+  border-bottom: 2px solid rgba(9, 211, 171, 0.103);
+  cursor: pointer;
+
+}
+
+.sideNavContMain:hover{
+  background-color: rgb(37, 47, 58);
+  padding: 10px 10px 15px 25px;
+  position: relative;
+
+}
+.sideNavCont{
+  color: white;
+  font-size: 16px;
+  text-decoration: none !important;
+  padding: 0px 0px 0px 45px;
+}
+
+.sideNavCont:hover{
+  color: white;
+  font-size: 16px;
+  text-decoration: none !important;
+  padding: 0px 0px 0px 45px;
+  margin-top: 100px !important;
+}
+
+.helpBox{
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  margin: 30px 30px 10px 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(9, 187, 151, 0.3) ;
+}
+
+.helpBoxCont{
+  color: white;
+}
+.helpUserIcon{
+  font-size: 40px;
+  color: rgb(238, 238, 238);
+}
+
+.helpBoxBtn{
+  padding: 5px 0px;
+  background-color: rgb(9, 211, 171);
+  text-align: center;
+  border-radius: 10px;
+  font-size: 12px;
+  margin: 15px 20px 0px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.followBox{
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  margin: 10px 30px 10px 30px;
+  border-radius: 20px;
+}
+
+.followBoxCont{
+  color: white;
+}
+.followIcon{
+  font-size: 40px;
+  color: rgb(9, 211, 171);
+  cursor: pointer;
+}
+
+.sideNavMain::-webkit-scrollbar {
+   width: 12px !important;
+}
+
+.sideNavMain::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(255, 0, 0, 0.988); 
+   border-radius: 10px;
+}
+
+.sideNavMain::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}

@@ -1,0 +1,152 @@
+.userMain{
+    padding: 100px 30px 20px 30px!important;
+}
+.searchUserMain{
+    padding: 20px 10px ;
+    width: 100%;
+    position: relative;
+    background-color: rgba(247, 247, 247, 0.585);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1) ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inputRowTwo{
+    padding: 20px 0px 20px 0px;
+}
+.userInputBtn{
+    background-color: rgb(11, 183, 148);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.155) ;
+}
+.userInputBtnTwo{
+    background-color: rgb(52, 65, 83);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(252, 252, 252);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.155) ;
+}
+
+.userCollapseMain{
+    margin-top: 30px;
+    padding: 0px 10px ;
+    width: 100%;
+    position: relative;
+    background-color: rgba(247, 247, 247, 0.585);
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1) ;
+    text-align: left;
+}
+.accordion-borderless .accordion-item .accordion-button:not(.collapsed) {
+    background-color: rgba(247, 247, 247, 0.585) !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.155) !important;
+    color: #4d4d4d !important;
+  }
+
+  .accordion-button {
+    
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.155) !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1.15rem 1.5rem;
+    font-size: 1rem;
+    color: #000000 !important;
+    text-align: left !important;
+    background-color: rgba(247, 247, 247, 0.585) !important;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+  }
+
+  .accordion-body{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.155) !important;
+    background-color: rgba(247, 247, 247, 0.585) !important;
+    padding-bottom: 50px !important;
+  }
+
+  .accordion-button{
+    font-weight: bold !important;
+    color: #4d4d4d !important;
+    font-size: 18px !important;
+  }
+
+  .collapseUseImg{
+    width: 100%;
+    border-radius: 50%;
+  }
+  .changeImgText{
+    color: rgb(10, 186, 151);
+    padding: 20px 0px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+
+  }
+
+  .saveBtn{
+    background-color: rgb(52, 65, 83);
+    width: 150px;
+    padding: 8px 10px;
+    border-radius: 20px;
+    margin-left: 3%;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0px solid black;
+  }
+
+  .collapseTableData{
+    padding-top: 10px;
+    padding-right: 10px;
+    color: #4d4d4d !important;
+  }
+
+  .collapseTableHead{
+    color: rgb(10, 186, 151) !important;
+    font-weight: bold;
+    padding-right: 30px !important;
+  }
+
+  .linkedOffice{
+    margin-left: 40%;
+    margin-top: -7.5%;
+    color: #737373;
+  }
+
+  .pagenition{
+    text-align: right;
+    padding-top: 50px;
+  }
+
+  .pagenitionLink{
+
+    cursor: pointer;
+    color: rgb(10, 186, 151);
+    padding: 0px 10px;
+  }
+
+  .lastLogin{
+    background-color: rgba(255, 255, 255, 0) ;
+    padding: 10px 1px ;
+    margin: 0px 0px ;
+    border-radius: 20px ;
+    text-align: left;
+    color: #737373;
+    border: 0px solid black;
+    width: 100%;
+  }
