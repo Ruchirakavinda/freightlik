@@ -79,3 +79,18 @@
     font-size: 14px;
     text-align: center;
 }
+.langIcon{
+    color: rgb(9, 211, 171);
+    font-size: 22px;
+}
+.langBtn{
+    color: rgb(251, 251, 251);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.langMain{
+    margin-left: 33%;
+    margin-top: 1%;
+    position: absolute;
+}

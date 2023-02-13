@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React, {useState } from 'react';
 import './Login.css';
 import {
   MDBCol,
   MDBRow,
-  MDBCheckbox,
   MDBBtn,
   MDBIcon,
   MDBContainer
@@ -12,34 +11,32 @@ import logo1 from '../../../Assets/logo01.png';
 import { UserAuth } from '../../../Context/AuthContext';
 import { useTranslation } from 'react-i18next';
 
-
-function Login() {
-  const { t, i18n } = useTranslation();
-  function handleLanguage(lang){
+function Signup() {
+    const { t, i18n } = useTranslation();
+    function handleLanguage(lang){
     i18n.changeLanguage(lang);
   }
 
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [msg, setMsg] = useState('')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const [msg, setMsg] = useState('')
 
-  const {signIn} = UserAuth()
+    const {createUser} = UserAuth()
 
-  const handleSignIn = async (e) => {
-    e.preventDefault()
-    try {
-        await signIn(email, password);
-        console.log('You are Logged In')
-        window.location.pathname='/Home'
-    } catch (e) {
-        console.log(e.message)
-        setMsg(e.message)
-        
+
+    const handleSignUp = async (e) => {
+        e.preventDefault()
+        try {
+            await createUser(email, password);
+            window.location.pathname='/Home';
+        } catch (e) {
+            console.log(e.message)
+            setMsg(e.message)
+            
+        }
     }
-}
 
   return (
-
     <MDBContainer fluid className='loginMain'>
       <MDBContainer className='loginDivOne'>
         <img src={logo1} alt='...' className='loginLogoOne'/>
@@ -51,28 +48,19 @@ function Login() {
         </span>
       </MDBContainer>
     <MDBContainer className='loginFormMain'>
-    <form onSubmit={handleSignIn}>
-      <p className='loginTopic'>{t('login')}</p>
-      <p style={{color:'brown'}}>{msg?t('loginError'):''}</p>
+    <form onSubmit={handleSignUp}>
+      <p className='loginTopic'>{t('signup')}</p>
+      <p style={{color:'brown'}}>{msg==='Firebase: Error (auth/email-already-in-use).'?t('signinError'):''}</p>
       <input className='mb-4 loginInput' type='email' onChange={(e) => setEmail(e.target.value)} placeholder={t('email')} /><br/>
       <input className='mb-4 loginInput' type='password' onChange={(e) => setPassword(e.target.value)} placeholder={t('password')} />
 
-      <MDBRow className='mb-4'>
-        <MDBCol className='d-flex justify-content-center'>
-          <MDBCheckbox id='form2Example3'  defaultChecked /><span className='loginCont'>{t('remember')}</span>
-        </MDBCol>
-        <MDBCol>
-          <span className='loginCont'>{t('forgotPw')}</span>
-        </MDBCol>
-      </MDBRow>
-
       <MDBBtn type='submit' className='mb-4 loginBtn' block >
-        {t('login')}
+      {t('signup')}
       </MDBBtn>
 
       <div className='text-center'>
-        <p className='loginCont'>
-          {t('notRemeber')} <span className='learnMore' onClick={() =>  window.location.href='/Signup'}> {t('register')}</span>
+      <p className='loginCont'>
+      {t('haveAccount')} <span className='learnMore' onClick={() =>  window.location.href='/'}>{t('login')}</span>
         </p>
         <MDBBtn floating color="secondary" className='mx-1'>
           <MDBIcon fab icon='facebook-f' />
@@ -108,8 +96,6 @@ function Login() {
       </MDBRow>
     </MDBContainer>
     </MDBContainer>
-
-
   );
 }
-export default Login;
+export default Signup;

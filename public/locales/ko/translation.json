@@ -1,0 +1,13 @@
+{
+    "login":"로그인",
+    "signup":"가입하기",
+    "haveAccount":"계정을 갖고있다 ?",
+    "email":"이메일 주소",
+    "password":"비밀번호",
+    "remember":"날 기억해",
+    "forgotPw":"비밀번호를 잊으 셨나요 ? ",
+    "notRemeber":"회원이 아니십니까 ? ",
+    "register":"등록하다",
+    "loginError":"이메일이나 비밀번호가 틀 렸습니다 !",
+    "signinError":"사용자가 이미 존재합니다 !"
+}
