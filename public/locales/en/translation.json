@@ -1,0 +1,13 @@
+{
+    "login":"Log In",
+    "signup":"Sign Up",
+    "haveAccount":"Have an Account ?",
+    "email":"Email Address",
+    "password":"Password",
+    "remember":"Remember Me",
+    "forgotPw":"Forgot Password ?",
+    "notRemeber":"Not a Member ? ",
+    "register":"Register",
+    "loginError":"Incorrect Email or Password !",
+    "signinError":"User Already Exists !"
+}
