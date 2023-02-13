@@ -1,0 +1,130 @@
+.homeMain{
+    padding: 100px 30px 50px 30px!important;
+}
+.homeTopicMain{
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.homeTopicMainIcon{
+    color: rgb(9, 211, 171);
+    font-size: 25px;
+    margin: 0px 20px 0px 5px;
+}
+.homeTopic{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.SelDivOne{
+    background-color: rgb(255, 255, 255) ;
+    padding: 10px 20px ;
+    margin: 0px 0px ;
+    border-radius: 20px ;
+    text-align: left;
+    color: rgb(0, 0, 0) ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) ;
+    border: 0px solid black;
+    width: 100%;
+}
+
+.SelOne{
+    background-color: rgba(255, 255, 255, 0) ;
+    border: 0px solid black ;
+    width: 100%;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.525) ;
+}
+
+
+.memberSearchBtn{
+    background-color: rgb(9, 211, 171);
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05) ;
+}
+.inputRow{
+    border-bottom: 3px solid rgb(232, 232, 232) ;
+    padding-bottom: 50px;
+}
+.searchResultMain{
+    margin-top: 50px;
+    padding: 20px 10px ;
+    width: 100%;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.585);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06) ;
+    text-align: left;
+}
+
+.activeMember{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    font-weight: bold;
+    color: rgb(9, 187, 151);
+}
+
+.memberImg{
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(9, 187, 151, 0.2) ;
+    border-radius: 20px;
+    padding: 20px;
+}
+.memberCol{
+    padding: 10px 50px 20px 50px !important;
+}
+.memberTableHead{
+    padding: 10px 60px 10px 10px;
+    text-align: left;
+    color: rgb(9, 187, 151);
+}
+
+.memberTableData{
+    text-align: left;
+}
+
+.companyCont{
+    color: black;
+    text-align: left;
+    padding: 10px 45px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.userCrd{
+    box-shadow: 0px 0px 10px rgba(9, 187, 151, 0.1) ;
+    padding:30px 50px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+.userCrdImg{
+    width: 130px;
+}
+
+.userCrdTopic{
+    font-weight: bold;
+    font-size: 20px;
+}
+.userCrdPos{
+    color: rgb(9, 187, 151);
+}
+
+.userCrdIcon{
+    font-size: 20px;
+    color: rgb(9, 211, 171);
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.userCrdCont{
+    color: black;
+    font-size: 16px;
+}
